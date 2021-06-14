@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import cerrar from "./cerrar.png";
 
 function App() {
   const [reportes, setReportes] = useState([]);
 
   const agregarReporte = (values) => {
     setReportes([...reportes, values]);
-  };
-
-  const ser = () => {
-    reportes.pop();
   };
 
   return (
