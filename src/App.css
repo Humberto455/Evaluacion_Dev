@@ -1,38 +1,54 @@
+body {
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ec6ead,
+    #3494e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ec6ead,
+    #3494e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Fondo {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 300px;
+  padding-top: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  width: 30%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#carta {
+  width: 400px;
+  height: auto;
+  background-color: rgb(200, 168, 22);
+  border-radius: 15px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 25px;
+  font-size: 20px;
+  color: blanchedalmond;
 }
-
-.App-link {
-  color: #61dafb;
+#subtitulo {
+  margin-top: 40px;
+  margin-left: -480px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.texto12 {
+  color: rgb(15, 80, 60);
+}
+.titulo {
+  color: rgb(5, 10, 14);
+}
+#cerrar {
+  height: 40px;
+  margin-left: 80px;
 }
